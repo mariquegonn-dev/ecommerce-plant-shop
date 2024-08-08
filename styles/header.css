@@ -1,0 +1,38 @@
+.header-container{
+    justify-content: space-between;
+    padding: 45px 10px 40px 10px;
+    max-width: 1240px;
+}
+
+.header-options{
+    column-gap: 100px;
+}
+
+.header-logo span{
+    display: inline-block;
+    font: 400 24px "poppins",sans-serif;
+}
+
+.header-menu ul {
+    column-gap: 45px;
+}
+
+.header-menu ul li > a{
+    font: 500 16px "poppins",sans-serif;
+    padding: 10px 5px;
+}
+
+.header-menu ul li > a:not(.active){
+    color: #1E1E1E;
+    opacity: .75;
+}
+
+.header-icons{
+    column-gap: 40px;
+}
+
+.header-icons svg{
+    cursor: pointer;
+}
+
+
