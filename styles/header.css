@@ -1,4 +1,5 @@
 .header-container{
+    margin: auto;
     justify-content: space-between;
     padding: 45px 10px 40px 10px;
     max-width: 1240px;
